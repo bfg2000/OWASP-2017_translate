@@ -95,11 +95,11 @@
 <ins>Пример</ins>
 В WordPress для инициализации пользователя требуются только имя пользователя и адрес электронной почты, как показано ниже:
 
-![Добавление пользователя WordPress] (https://github.com/bfg2000/OWASP-2017_translate/blob/main/wstg/testing_guides/4-Web_Application_Security_Testing/images/Wordpress_useradd.png)
+![Добавление пользователя WordPress](https://github.com/bfg2000/OWASP-2017_translate/blob/main/wstg/testing_guides/4-Web_Application_Security_Testing/images/Wordpress_useradd.png)
 
 Для деинициализации пользователей требуется, чтобы администратор выбрал пользователей, которые будут деинициализированы, выберите «Удалить» в раскрывающемся меню (обведено) и затем примените это действие. Затем администратору предоставляется диалоговое окно с вопросом, что делать с сообщениями пользователя (удалить или передать их).
 
-![Аутентификация и пользователи WordPress] (https://github.com/bfg2000/OWASP-2017_translate/blob/main/wstg/testing_guides/4-Web_Application_Security_Testing/images/Wordpress_authandusers.png)
+![Аутентификация и пользователи WordPress](https://github.com/bfg2000/OWASP-2017_translate/blob/main/wstg/testing_guides/4-Web_Application_Security_Testing/images/Wordpress_authandusers.png)
 
 
 <ins>Инструменты</ins>
@@ -135,11 +135,11 @@
 Теперь тестировщик должен попытаться вставить действительный идентификатор пользователя и неправильный пароль и записать сообщение об ошибке, созданное приложением.
  В браузере должно отображаться сообщение, подобное следующему:
 
-![Ошибка аутентификации] (https://github.com/bfg2000/OWASP-2017_translate/blob/main/wstg/testing_guides/4-Web_Application_Security_Testing/images/AuthenticationFailed.png)
+![Ошибка аутентификации](https://github.com/bfg2000/OWASP-2017_translate/blob/main/wstg/testing_guides/4-Web_Application_Security_Testing/images/AuthenticationFailed.png)
 
 или что-то вроде:
 
-![Конфигурация не найдена] (https://github.com/bfg2000/OWASP-2017_translate/blob/main/wstg/testing_guides/4-Web_Application_Security_Testing/images/NoConfFound.jpg)
+![Конфигурация не найдена](https://github.com/bfg2000/OWASP-2017_translate/blob/main/wstg/testing_guides/4-Web_Application_Security_Testing/images/NoConfFound.jpg)
 
 против любого сообщения, которое раскрывает существование пользователя, например, сообщение, подобное:
 ```
